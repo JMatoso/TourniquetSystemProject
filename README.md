@@ -6,7 +6,7 @@ Implementing a system with two read switches utilizing interrupt functions to si
 
 - ESP32 microcontroller
 - 2 Switches (for entrance and exit simulation)
-- 2 Pull-up resistors (470kΩ)
+- 2 Pull-up resistors (470Ω)
 - 2 LEDs
 - 5 Jumper wires
 - Breadboard
