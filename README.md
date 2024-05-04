@@ -10,3 +10,6 @@ Implementing a system with two read switches utilizing interrupt functions to si
 - 2 LEDs
 - 5 Jumper wires
 - Breadboard
+
+##
+![Mount](https://github.com/JMatoso/TourniquetSystemProject/blob/main/mount.png?raw=true)
