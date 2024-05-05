@@ -8,7 +8,7 @@ volatile int numberOfPeopleWhoGotIn;
 volatile int numberOfPeopleWhoGotOut;
 volatile bool canSendDataToComputer;
 
-void handleInInterrupt() {
+void IRAM_ATTR handleInInterrupt() {
   if (!canSendDataToComputer) {
     numberOfPeopleInside++;
     numberOfPeopleWhoGotIn++;
@@ -17,7 +17,7 @@ void handleInInterrupt() {
   }
 }
 
-void handleOutInterrupt() {
+void IRAM_ATTR handleOutInterrupt() {
   if (numberOfPeopleInside > 0 && !canSendDataToComputer) {
     numberOfPeopleInside--;
     numberOfPeopleWhoGotOut++;
